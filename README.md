@@ -23,7 +23,7 @@ pip install openai
 Clone the repository:
 
 ```
-git clone https://github.com/username/repository.git
+git clone https://github.com/vchaindz/grafana-GPT-description.git
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ git clone https://github.com/username/repository.git
 To run the script, you can use the command-line arguments `--key`, `--file`, and `--context`:
 
 ```
-python script.py --key your-api-key --file path-to-your-json-file --context "Linux Performance Metrics, Linux operating system usage and processes"
+python generate-description.py --key your-api-key --file path-to-your-json-file --context "Linux Performance Metrics, Linux operating system usage and processes"
 ```
 
 If you don't provide these arguments, the script will try to use the `OPENAI_API_KEY`, `JSON_FILE`, and `PROMPT_CONTEXT` environment variables respectively. If any of these is not provided, the script may fail.
