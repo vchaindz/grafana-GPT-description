@@ -1,4 +1,4 @@
-# JSON Description Generator using OpenAI GPT-3
+# JSON Grafana Dashboard Description Generator using OpenAI GPT-3
 
 This is a simple script that takes a JSON file and uses OpenAI's GPT-3 to generate a markdown formatted description for each title in the JSON structure. The script can be customized to include an optional context which will be fed to the GPT-3 prompt.
 
